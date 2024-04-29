@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Magic</title>
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome para los iconos -->
+  <link href="JS/bootstrap.min.js" rel="stylesheet">
+  <!-- CSS personalizado -->
+  <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <!-- Logo y texto -->
+      <a class="navbar-brand" href="#">PHOTO MAGIC</a>
+      <!-- Botón para dispositivos pequeños -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Items del navbar -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Acerca de</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Tienda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Portafolio</a></li>
+        </ul>
+        <!-- Iconos de redes sociales y carrito -->
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-facebook"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   <!-- Sección con imagen de portada -->
+   <section id="portada" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/09.jpg" class="d-block w-100" alt="Imagen 1">
+      </div>
+      <div class="carousel-item">
+        <img src="img/010.jpg" class="d-block w-100" alt="Imagen 2">
+      </div>
+      <div class="carousel-item">
+        <img src="img/00.jpg" class="d-block w-100" alt="Imagen 3">
+      </div>
+      <!-- Agrega más imágenes aquí -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#portada" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#portada" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </section>
+
+  </section>
+  <section class="productos">
+    <div class="container">
+      <h2>Nuestros Productos</h2>
+      <div class="row">
+        <!-- Productos -->
+        <div class="col-md-4">
+          <div class="producto">
+            <img src="img/01.jpg" alt="Producto 1">
+            <span class="nombre-producto">Cuadro Family x3 10x15</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="producto">
+            <img src="img/02.jpg" alt="Producto 2">
+            <span class="nombre-producto">Cuadro L</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="producto">
+            <img src="img/03.jpg" alt="Producto 3">
+            <span class="nombre-producto">Cuadro 15 años</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="producto">
+            <img src="img/04.jpg" alt="Producto 4">
+            <span class="nombre-producto">Cuadro 15x20 Pajaros</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="producto">
+            <img src="img/05.jpg" alt="Producto 5">
+            <span class="nombre-producto">Cuadro 20x30 Amber</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="producto">
+            <img src="img/011.jpg" alt="Producto 6">
+            <span class="nombre-producto">Cuadro Family</span>
+          </div>
+        </div>
+        <!-- Agrega más productos aquí -->
+      </div>
+    </div>
+  </section>
+  <footer class="footer-negro">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>HORARIO DE SERVICIO</h3>
+          <p>Visítanos</p>
+          <ul>
+            <li>Lunes - Viernes: 9 a. m. - 6 p. m.</li>
+            <li>Sábado: 10 a. m. - 2 p. m.</li>
+            <li>Domingo: cerrado</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3>Photo Magic</h3>
+          <p>Email: photomagic41@gmail.com</p>
+          <p>¡Síguenos en nuestras redes sociales!</p>
+          <ul class="redes-sociales">
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle con Popper.js y jQuery (necesario para el funcionamiento del navbar en dispositivos móviles) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
